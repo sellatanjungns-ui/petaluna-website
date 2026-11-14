@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Petaluna Florist menyediakan fresh flower dan artificial bouquet dengan desain Korean aesthetic. Custom bouquet untuk setiap momen spesial." />
+  <meta name="theme-color" content="#fff8f6" />
+  <title>Petaluna Florist — A Little Bloom, A Lot of Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span>✿</span> Made with love, wrapped just for you <a href="#collection">Lihat koleksi <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Petaluna Florist beranda">
+      <img class="brand-logo" src="assets/petaluna-logo.svg" alt="Petaluna Florist" />
+    </a>
+    <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#collection">Collection</a>
+      <a class="nav-link" href="#gallery">Gallery</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#custom-order">Custom order <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A FLOWER STUDIO FOR EVERY MOMENT</p>
+        <h1>A little bloom,<br /><em>a lot of love.</em></h1>
+        <p class="hero-description">Rangkaian bunga fresh dan artificial yang dirancang dengan sentuhan lembut untuk membuat setiap momen terasa lebih istimewa.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#collection">Explore collection <span>→</span></a>
+          <a class="button button-outline" href="#custom-order">♡ Custom bouquet</a>
+        </div>
+        <div class="hero-note"><span class="note-flower">✿</span><span>Thoughtfully arranged<br /><strong>especially for you.</strong></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-frame"><img src="assets/images/hero-bouquet.jpg" alt="Bouquet mawar pink Petaluna dengan wrapping pastel" /></div>
+        <span class="hero-sticker">made<br />with ♡</span>
+        <span class="hero-sparkle sparkle-one">✧</span><span class="hero-sparkle sparkle-two">✿</span>
+      </div>
+      <div class="hero-bottom-line"><span>FRESH FLOWER</span><i></i><span>ARTIFICIAL FLOWER</span><i></i><span>CUSTOM BOUQUET</span></div>
+    </section>
+
+    <section class="promise-strip section-wrap" aria-label="Keunggulan Petaluna">
+      <article><span class="promise-icon">✿</span><div><strong>Thoughtful design</strong><small>Dirangkai dengan sepenuh hati</small></div></article>
+      <article><span class="promise-icon">♡</span><div><strong>Custom for you</strong><small>Warna dan bunga sesuai pilihanmu</small></div></article>
+      <article><span class="promise-icon">♧</span><div><strong>Carefully wrapped</strong><small>Packaging cantik dan rapi</small></div></article>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-photo"><img src="assets/images/florist-studio.jpg" alt="Inspirasi suasana studio florist Petaluna" /><span class="photo-caption">little things, lovely feelings</span></div>
+      <div class="about-copy">
+        <p class="eyebrow">OUR LITTLE STORY</p>
+        <h2>Flowers speak<br /><em>when words are not enough.</em></h2>
+        <p>Petaluna Florist adalah florist online yang menghadirkan rangkaian fresh flower dan artificial flower dengan desain modern bernuansa Korean aesthetic.</p>
+        <p>Kami percaya setiap bunga punya cerita. Karena itu, setiap bouquet dapat disesuaikan dengan warna, jenis bunga, dan momen spesial pilihanmu.</p>
+        <a class="text-link" href="#custom-order">Ceritakan bouquet impianmu <span>→</span></a>
+      </div>
+      <span class="about-flower" aria-hidden="true">❀</span>
+    </section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading">
+        <p class="eyebrow">THE PETALUNA COLLECTION</p>
+        <h2>A bouquet for <em>every you.</em></h2>
+        <p>Temukan rangkaian favorit untuk merayakan hari-hari kecil maupun momen besar.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter kategori produk">
+        <button class="filter-btn selected" data-filter="all">All flowers</button>
+        <button class="filter-btn" data-filter="fresh">Fresh flower</button>
+        <button class="filter-btn" data-filter="artificial">Artificial flower</button>
+      </div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-category="fresh"><div class="product-image"><img src="assets/images/sweet-rose.jpg" alt="Sweet Rose Bouquet" /><span class="product-tag">Best loved</span></div><div class="product-info"><div><h3>Sweet Rose Bouquet</h3><p>Fresh rose · Pink</p></div><strong>Rp85.000</strong></div><button class="product-order" data-product="Sweet Rose Bouquet" aria-label="Pesan Sweet Rose Bouquet">＋</button></article>
+        <article class="product-card" data-category="fresh"><div class="product-image"><img src="assets/images/sunny-day.jpg" alt="Sunny Day Bouquet" /></div><div class="product-info"><div><h3>Sunny Day Bouquet</h3><p>Sunflower · Bright</p></div><strong>Rp75.000</strong></div><button class="product-order" data-product="Sunny Day Bouquet" aria-label="Pesan Sunny Day Bouquet">＋</button></article>
+        <article class="product-card" data-category="fresh"><div class="product-image"><img src="assets/images/pure-love.jpg" alt="Pure Love Bouquet" /></div><div class="product-info"><div><h3>Pure Love Bouquet</h3><p>Baby's breath · White</p></div><strong>Rp90.000</strong></div><button class="product-order" data-product="Pure Love Bouquet" aria-label="Pesan Pure Love Bouquet">＋</button></article>
+        <article class="product-card" data-category="artificial"><div class="product-image"><img src="assets/images/pastel-tulip.jpg" alt="Pastel Tulip Bouquet" /><span class="product-tag">Long lasting</span></div><div class="product-info"><div><h3>Pastel Tulip Bouquet</h3><p>Artificial tulip · Pastel</p></div><strong>Rp70.000</strong></div><button class="product-order" data-product="Pastel Tulip Bouquet" aria-label="Pesan Pastel Tulip Bouquet">＋</button></article>
+        <article class="product-card" data-category="artificial"><div class="product-image"><img src="assets/images/dreamy-mixed.jpg" alt="Dreamy Mixed Bouquet" /></div><div class="product-info"><div><h3>Dreamy Mixed Bouquet</h3><p>Mixed flower · Soft pink</p></div><strong>Rp110.000</strong></div><button class="product-order" data-product="Dreamy Mixed Bouquet" aria-label="Pesan Dreamy Mixed Bouquet">＋</button></article>
+        <article class="product-card" data-category="artificial"><div class="product-image"><img src="assets/images/gallery-extra-b.jpg" alt="Everlasting Bloom Bouquet" /><span class="product-tag">Easy care</span></div><div class="product-info"><div><h3>Everlasting Bloom</h3><p>Artificial flower · Cream</p></div><strong>Rp65.000</strong></div><button class="product-order" data-product="Everlasting Bloom" aria-label="Pesan Everlasting Bloom">＋</button></article>
+      </div>
+      <p class="price-note">*Harga merupakan simulasi untuk project dan dapat disesuaikan dengan jenis bunga serta ukuran bouquet.</p>
+    </section>
+
+    <section class="custom-banner section-wrap" id="custom-order">
+      <div class="custom-image"><img src="assets/images/custom-bouquet.jpg" alt="Inspirasi bouquet custom bernuansa pink" /></div>
+      <div class="custom-copy"><p class="eyebrow">MADE JUST FOR YOU</p><h2>Your idea,<br /><em>our little creation.</em></h2><p>Punya warna, bunga, atau tema khusus? Yuk, buat bouquet yang paling menggambarkan ceritamu.</p><button class="button button-primary" id="open-custom">Buat custom bouquet <span>↗</span></button></div>
+      <span class="custom-decoration" aria-hidden="true">✿</span>
+    </section>
+
+    <section class="gallery section-wrap" id="gallery">
+      <div class="section-heading gallery-heading"><p class="eyebrow">A FEW BLOOMING MOMENTS</p><h2>Petaluna <em>in bloom.</em></h2><p>Inspirasi warna, bunga, dan rangkaian untuk momen berhargamu.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-tall"><img src="assets/images/gallery-roses.jpg" alt="Rangkaian mawar pink" /><figcaption>Soft rose mood</figcaption></figure>
+        <figure><img src="assets/images/gallery-tulips.jpg" alt="Rangkaian tulip pastel" /><figcaption>Pastel daydream</figcaption></figure>
+        <figure class="gallery-wide"><img src="assets/images/gallery-sunflowers.jpg" alt="Rangkaian bunga matahari" /><figcaption>A little sunshine</figcaption></figure>
+        <figure><img src="assets/images/gallery-babysbreath.jpg" alt="Baby's breath bouquet" /><figcaption>Pure & simple</figcaption></figure>
+        <figure class="gallery-tall"><img src="assets/images/gallery-hydrangea.jpg" alt="Rangkaian hydrangea" /><figcaption>Lovely details</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-copy"><p class="eyebrow">LET'S MAKE SOMEONE SMILE</p><h2>Let's make it<br /><em>a little more special.</em></h2><p>Untuk pemesanan, konsultasi custom bouquet, atau pertanyaan lainnya, hubungi Petaluna melalui media sosial kami.</p><a class="button button-primary" href="#custom-order">Start your order <span>→</span></a></div>
+      <div class="contact-card"><span class="contact-flower">✿</span><p class="eyebrow">SAY HELLO TO US</p><h3>Petaluna Florist</h3><a href="https://www.instagram.com/petalana.flowers/" target="_blank" rel="noopener noreferrer"><span>◎</span> Instagram: @petalana.flowers</a><a href="https://wa.me/62895404237475" target="_blank" rel="noopener noreferrer"><span>✆</span> WhatsApp: 0895-4042-37475</a><a href="https://www.google.com/maps/search/?api=1&query=Kuitang%2C+Pasar+Senen%2C+Jakarta+Pusat" target="_blank" rel="noopener noreferrer"><span>⌖</span> Kuitang, Pasar Senen, Jakarta Pusat</a><p><span>◷</span> Senin–Sabtu · 08.00–17.00 WIB</p><small>Online shop · Silakan hubungi kami untuk pemesanan</small></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-wrap"><a class="brand footer-brand" href="#top"><img class="brand-logo footer-logo" src="assets/petaluna-logo.svg" alt="Petaluna Florist" /></a><p>A little bloom,<br />a lot of love.</p><div class="footer-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div><a class="back-top" href="#top">Back to top ↑</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Petaluna Florist. Made with ♡</span><span>Fresh blooms, lovely moments.</span></div>
+  </footer>
+
+  <div class="modal" id="order-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel"><button class="modal-close" type="button" aria-label="Tutup" data-close-modal>×</button><p class="eyebrow">A LITTLE NOTE FOR YOUR BOUQUET</p><h2 id="modal-title">Let's create <em>your bouquet.</em></h2><p class="modal-intro">Ceritakan sedikit tentang bouquet yang kamu inginkan. Form ini akan menyiapkan pesan pesanan untuk WhatsApp.</p>
+      <form id="order-form">
+        <label>Nama kamu<input type="text" name="customer" placeholder="Nama pemesan" required /></label>
+        <label>Pilihan bouquet<input type="text" name="bouquet" id="bouquet-choice" placeholder="Contoh: Sweet Rose Bouquet" required /></label>
+        <div class="form-row"><label>Jenis bunga<select name="type"><option>Fresh flower</option><option>Artificial flower</option><option>Custom mix</option></select></label><label>Budget<select name="budget"><option>Di bawah Rp100.000</option><option>Rp100.000–Rp200.000</option><option>Rp200.000–Rp350.000</option><option>Diskusikan dulu</option></select></label></div>
+        <label>Catatan / warna yang diinginkan<textarea name="notes" rows="3" placeholder="Warna, tema, tanggal kebutuhan, atau pesan kartu..."></textarea></label>
+        <button class="button button-primary form-submit" type="submit">Siapkan pesan pesanan <span>↗</span></button>
+        <p class="form-hint">Setelah mengisi form, kamu akan diarahkan ke WhatsApp Petaluna untuk mengirim detail pesanan.</p>
+      </form>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

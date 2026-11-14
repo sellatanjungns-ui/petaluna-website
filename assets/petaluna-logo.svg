@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-labelledby="title desc">
+  <title id="title">Petaluna Florist</title><desc id="desc">Logo bunga bergaya minimalis dengan tulisan Petaluna Florist.</desc>
+  <g transform="translate(58 55)" fill="none" stroke="#B97882" stroke-width="2.6" stroke-linecap="round">
+    <ellipse cx="0" cy="-20" rx="9" ry="17" fill="#F4D9D9"/><ellipse cx="19" cy="-6" rx="9" ry="17" transform="rotate(72 19 -6)" fill="#F4D9D9"/><ellipse cx="12" cy="17" rx="9" ry="17" transform="rotate(144 12 17)" fill="#F4D9D9"/><ellipse cx="-12" cy="17" rx="9" ry="17" transform="rotate(216 -12 17)" fill="#F4D9D9"/><ellipse cx="-19" cy="-6" rx="9" ry="17" transform="rotate(288 -19 -6)" fill="#F4D9D9"/><circle r="6" fill="#B97882" stroke="none"/>
+    <path d="M0 24 C-2 37 -8 43 -17 48 M-7 38 C-20 31 -26 34 -29 43 M-4 42 C8 32 17 34 21 42" stroke="#9B7770"/>
+  </g>
+  <text x="112" y="61" fill="#795B57" font-family="Georgia,serif" font-size="48" letter-spacing="-1.5">Petaluna</text>
+  <text x="117" y="86" fill="#A77D79" font-family="Arial,sans-serif" font-size="11" letter-spacing="5.5">FLORIST</text>
+</svg>
